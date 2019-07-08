@@ -3,20 +3,20 @@ module.exports = function (grunt) {
 		ngtemplates: {
 			myApp: {
 				options: {
-					module: 'wcInboxWidgetTemplates',
+					module: 'wcModalTemplates',
 					standalone: true
 				},
 				cwd: '.',
-				src: ['inbox-widget.html'],
-				dest: 'wcinboxwidgettemplates.js'
+				src: [''],
+				dest: 'wcmodaltemplates.js'
 			}
 		},
 		concat: {
 		    options: {
 		    },
 		    dist: {
-		      src: ['wcinboxwidgettemplates.js', 'index.js'],
-		      dest: 'dist/wcinboxwidget.js',
+		      src: ['index.js'],
+		      dest: 'dist/wcmodal.js',
 		    },
 		  },
 	});
@@ -24,5 +24,5 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-angular-templates');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 
-	grunt.registerTask('default',['ngtemplates','concat']);
+	grunt.registerTask('default',['concat']);
 };
