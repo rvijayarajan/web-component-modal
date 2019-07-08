@@ -22,7 +22,9 @@
   "homepage": "https://github.com/rvijayarajan/web-component-modal#readme",
   "dependencies": {
     "angular": "^1.7.8",
-    "angular-ui-bootstrap": "^2.5.6",
+    "angular-animate": "^1.7.8",
+    "angular-sanitize": "^1.7.8",
+    "angular-touch": "^1.7.8",
     "bootstrap": "^4.3.1",
     "express": "^4.16.4",
     "grunt": "^1.0.4",
@@ -32,6 +34,7 @@
     "ionicons": "^4.5.6",
     "jquery": "^3.3.1",
     "popper.js": "^1.15.0",
-    "requirejs": "^2.3.6"
+    "requirejs": "^2.3.6",
+    "ui-bootstrap4": "^3.0.6"
   }
 }

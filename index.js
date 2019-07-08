@@ -1,6 +1,6 @@
 (function () {
 
- 	var app = angular.module("wcModal",["ui.bootstrap.modal","ui.bootstrap.tpls"]);
+ 	var app = angular.module("wcModal",["ui.bootstrap","ngAnimate","ngSanitize"]);
 
 	app.factory("wcModal", wcModalFactory);
 

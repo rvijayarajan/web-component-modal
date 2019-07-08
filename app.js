@@ -1,6 +1,6 @@
 (function () {
 
- 	var app = angular.module("main",['wcModal']);
+ 	var app = angular.module("main",['wcModal','component']);
 
 	app.component("app", {
 		template: '<a ng-click="openModal()" href="#">Click Me !</a>',
@@ -18,10 +18,7 @@
 
 		$scope.openModal = function() {
 			wcModal.showModal({
-				animation: true,
-				ariaLabelledBy: 'modal-title',
-				ariaDescribedBy: 'modal-body',
-				template: "<h3 class='modal-title' id='modal-title'>I'm a modal!</h3>"
+				component: 'component'
 			});
 		};
 		
