@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/rvijayarajan/web-component-modal#readme",
   "dependencies": {
-    "angular": "^1.7.8",
+    "angular": "^1.7.9",
     "angular-animate": "^1.7.8",
     "angular-sanitize": "^1.7.8",
     "angular-touch": "^1.7.8",
